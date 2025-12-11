@@ -1,7 +1,7 @@
 Vehicle Rental System – Backend API
 
-Live URL: <YOUR_VERCEL_DEPLOYMENT_URL>
-GitHub Repository: <YOUR_GITHUB_REPO_LINK>
+Live URL: https://b6-a2-vehicle-rental-server.vercel.app/
+GitHub Repository: https://github.com/SobuZ391/Vehicle-Rental-Sever/
 
 A modular and scalable backend API for managing vehicle rentals with authentication, role-based authorization, vehicle inventory, and booking lifecycle handling.
 
