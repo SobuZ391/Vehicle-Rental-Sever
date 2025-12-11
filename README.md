@@ -1,14 +1,14 @@
-Vehicle Rental System – Backend API
+**Vehicle Rental System – Backend API**
 
-Live URL: https://b6-a2-vehicle-rental-server.vercel.app/
+Live URL: https://b6-a2-vehicle-rental-server.vercel.app/ <br>
 GitHub Repository: https://github.com/SobuZ391/Vehicle-Rental-Sever/
 
 -A modular and scalable backend API for managing vehicle rentals with authentication, role-based authorization, vehicle inventory, and booking lifecycle handling.
 
- Features
+ ##Features
  Authentication & Authorization
 
---User registration and login with JWT
+ User registration and login with JWT
 
 Password hashing using bcrypt
 
@@ -16,7 +16,7 @@ Role-based access (admin, customer)
 
 Protected routes for sensitive operations
 
- User Management
+## User Management
 
 Admin: view all users
 
@@ -26,7 +26,7 @@ Customer: update own profile
 
 Prevent deletion if active bookings exist
 
- Vehicle Management
+## Vehicle Management
 
 Admin-only: add, update, delete vehicles
 
@@ -34,7 +34,7 @@ Public: view vehicles
 
 Availability tracking (available, booked)
 
- Booking Management
+## Booking Management
 
 Customers create new bookings
 
@@ -48,7 +48,7 @@ Mark as returned (admin)
 
 Auto-update vehicle status
 
-🛠️ Technology Stack
+## Technology Stack
 Layer	Technology
 Language	Node.js + TypeScript
 Framework	Express.js
@@ -57,7 +57,8 @@ Auth	JWT (jsonwebtoken)
 Security	bcryptjs
 Deployment	Vercel Serverless Functions
 Package Manager	npm
- Project Structure
+
+## Project Structure
 src/
  ├─ config/
  ├─ middleware/
