@@ -1,11 +1,11 @@
-**Vehicle Rental System – Backend API**
+### Vehicle Rental System – Backend API
 
 Live URL: https://b6-a2-vehicle-rental-server.vercel.app/ <br>
 GitHub Repository: https://github.com/SobuZ391/Vehicle-Rental-Sever/
 
 -A modular and scalable backend API for managing vehicle rentals with authentication, role-based authorization, vehicle inventory, and booking lifecycle handling.
 
- ##Features
+ ## Features
  Authentication & Authorization
 
  User registration and login with JWT
@@ -58,23 +58,8 @@ Security	bcryptjs
 Deployment	Vercel Serverless Functions
 Package Manager	npm
 
-## Project Structure
-src/
- ├─ config/
- ├─ middleware/
- ├─ modules/
- │   ├─ auth/
- │   ├─ user/
- │   ├─ vehicle/
- │   └─ booking/
- ├─ app.ts
- └─ index.ts  
-api/
- └─ index.ts
-vercel.json
-.env.example
 
- Setup Instructions
+## Setup Instructions
 1️- Clone the Repository
 git clone <your-repo-url>
 cd vehicle-rental-backend
@@ -101,24 +86,24 @@ Server will run at:
 
 http://localhost:5000
 
-Usage Instructions (Testing)
+### Usage Instructions (Testing)
 Authentication
 POST /api/v1/auth/signup
 POST /api/v1/auth/signin
 
-Vehicles
+## Vehicles
 POST /api/v1/vehicles            (admin)
 GET  /api/v1/vehicles            (public)
 GET  /api/v1/vehicles/:id        (public)
 PUT  /api/v1/vehicles/:id        (admin)
 DELETE /api/v1/vehicles/:id      (admin)
 
-Users
+## Users
 GET  /api/v1/users               (admin)
 PUT  /api/v1/users/:id           (admin or owner)
 DELETE /api/v1/users/:id         (admin)
 
-Bookings
+## Bookings
 POST /api/v1/bookings            (customer/admin)
 GET  /api/v1/bookings            (role-based)
 PUT  /api/v1/bookings/:id        (cancel or return)
