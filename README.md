@@ -49,14 +49,14 @@ Mark as returned (admin)
 Auto-update vehicle status
 
 ## Technology Stack
-Layer	Technology
-Language	Node.js + TypeScript
-Framework	Express.js
-Database	PostgreSQL (Neon / Supabase)
-Auth	JWT (jsonwebtoken)
-Security	bcryptjs
-Deployment	Vercel Serverless Functions
-Package Manager	npm
+
+Language	Node.js + TypeScript <br>
+Framework	Express.js <br>
+Database	PostgreSQL (Neon / Supabase) <br>
+Auth	JWT (jsonwebtoken) <br>
+Security	bcryptjs <br>
+Deployment	Vercel Serverless Functions <br>
+Package Manager	npm <br>
 
 
 ## Setup Instructions
