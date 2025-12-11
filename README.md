@@ -87,25 +87,25 @@ http://localhost:5000
 
 ## Usage Instructions (Testing)
 Authentication
-POST /api/v1/auth/signup
-POST /api/v1/auth/signin
+POST /api/v1/auth/signup <br>
+POST /api/v1/auth/signin <br>
 
 ## Vehicles
-POST /api/v1/vehicles            (admin)
-GET  /api/v1/vehicles            (public)
-GET  /api/v1/vehicles/:id        (public)
-PUT  /api/v1/vehicles/:id        (admin)
-DELETE /api/v1/vehicles/:id      (admin)
+POST /api/v1/vehicles            (admin) <br>
+GET  /api/v1/vehicles            (public) <br>
+GET  /api/v1/vehicles/:id        (public) <br>
+PUT  /api/v1/vehicles/:id        (admin) <br>
+DELETE /api/v1/vehicles/:id      (admin) <br>
 
 ## Users
-GET  /api/v1/users               (admin)
-PUT  /api/v1/users/:id           (admin or owner)
-DELETE /api/v1/users/:id         (admin)
+GET  /api/v1/users               (admin) <br>
+PUT  /api/v1/users/:id           (admin or owner) <br>
+DELETE /api/v1/users/:id         (admin) <br>
 
 ## Bookings
-POST /api/v1/bookings            (customer/admin)
-GET  /api/v1/bookings            (role-based)
-PUT  /api/v1/bookings/:id        (cancel or return)
+POST /api/v1/bookings            (customer/admin) <br>
+GET  /api/v1/bookings            (role-based) <br>
+PUT  /api/v1/bookings/:id        (cancel or return) <br>
 
 Use Authorization Header for protected routes:
 Authorization: Bearer <token>
