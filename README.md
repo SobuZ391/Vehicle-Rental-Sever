@@ -1,7 +1,7 @@
-### Vehicle Rental System – Backend API
+## Vehicle Rental System – Backend API
 
-Live URL: https://b6-a2-vehicle-rental-server.vercel.app/ <br>
-GitHub Repository: https://github.com/SobuZ391/Vehicle-Rental-Sever/
+### Live URL: https://b6-a2-vehicle-rental-server.vercel.app/ <br>
+### GitHub Repository: https://github.com/SobuZ391/Vehicle-Rental-Sever/
 
 -A modular and scalable backend API for managing vehicle rentals with authentication, role-based authorization, vehicle inventory, and booking lifecycle handling.
 
@@ -76,7 +76,6 @@ JWT_SECRET=your_jwt_secret_key
 PORT=5000
 
 
-Or copy from the provided .env.example.
 
 4️- Start Development Server
 npm run dev
@@ -86,7 +85,7 @@ Server will run at:
 
 http://localhost:5000
 
-### Usage Instructions (Testing)
+## Usage Instructions (Testing)
 Authentication
 POST /api/v1/auth/signup
 POST /api/v1/auth/signin
